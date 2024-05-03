@@ -10,6 +10,7 @@ public class JavaCup {
         int j = scanner.nextInt();
         System.out.println("Press number3: ");
         int k = scanner.nextInt();
+        temp();
         eval(i, j, k);
     }
     public static void eval(int i, int j, int k)
@@ -19,5 +20,15 @@ public class JavaCup {
             System.out.println("YES");
         }
         else { System.out.println("NO"); }
+    }
+    public static void temp() {
+        int[] a = new int[10000 * 20000];
+        int counter = 0;
+        for (int i = 0; i < 10000; i++) {
+            for (int j = 0; j < 20000; j++) {
+                a[counter] = i + j;
+                counter++;
+            }
+        }
     }
 }
