@@ -38,4 +38,12 @@
 <img src="./images/memory2.png">
 <img src="./images/summary2.png">
 
+همان‌طور که مشاهده می‌شود منابع به صورت زیر کاهش پیدا کرده‌اند:
+
 </div> 
+
+Heap Memory: 16.61 -> 11.98 MiB
+
+Heap Memory: 13.75 -> 12.71 MiB
+
+Executing Time: 3080 -> 92 ms
